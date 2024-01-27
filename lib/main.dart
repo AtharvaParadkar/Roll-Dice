@@ -5,9 +5,8 @@ void main() {
   runApp(
     const MaterialApp(
       home: Scaffold(
-        body: GradientContainerWidget(),
+        body:  GradientContainerWidget.bgcolor(),
       ),
     ),
   ); //* runapp is a function provided by flutter framework.
 }
-
