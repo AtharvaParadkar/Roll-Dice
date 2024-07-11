@@ -28,9 +28,10 @@ class _DiceRollerState extends State<DiceRoller> {
   Widget build(context) {
     return Column(
       mainAxisSize: MainAxisSize.min,
-      children: [
-        Image.asset('assests/images/dice-$diceRoll.png', width: 200),
-        const SizedBox(height: 20),
+      children: [ 
+        //*  While adding assets uncomment the assets part in pubspec.yml and add assets path.
+        Image.asset('assests/images/dice-$diceRoll.png', width: 200),     
+        const SizedBox(height: 20),                       
         TextButton(
           onPressed: rollDice,
           style: TextButton.styleFrom(

@@ -8,5 +8,5 @@ void main() {
         body:  GradientContainerWidget.bgcolor(),
       ),
     ),
-  ); //* runapp is a function provided by flutter framework.
+  ); //* runApp is a function provided by flutter framework.
 }
